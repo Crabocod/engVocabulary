@@ -1,0 +1,59 @@
+.exit{
+	position: absolute; 
+	top: 2px; 
+	right: 10px;
+}
+.aWord1{
+	visibility: hidden;
+}
+.aWord2{
+	visibility: hidden;
+}
+.tWord0{
+	visibility: hidden;
+}
+.tWord1{
+	visibility: hidden;
+}
+.tWord2{
+	visibility: hidden;
+}
+.tWord3{
+	visibility: hidden;
+}
+.play{
+	height: 13px;
+}
+ table {
+            width: 100%;
+        }
+
+        thead, tbody, tr, td, th { display: block; }
+
+        tr:after {
+            content: ' ';
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+
+        tbody {
+            height: 300px;
+            overflow-y: auto;
+        }
+        .rTableBody{
+        	height: 200px;
+            overflow-y: auto;
+        }
+
+
+        tbody td, thead th {
+            width: 32%;
+            float: left;
+        }
+        .rTableTd{
+        	width: 48%;
+            float: left;
+        }}
+}
